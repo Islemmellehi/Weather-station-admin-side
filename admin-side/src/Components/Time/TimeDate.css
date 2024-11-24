@@ -1,0 +1,27 @@
+@font-face {
+    font-family: timeFont;
+    src: url(C:\Users\islem\OneDrive\Bureau\Weather-Station-IHM\frontend\src\Fonts\KarlaTamilUpright-Bold.ttf);
+}
+.time-date {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto; /* Center container */
+    display: inline-block; /* Shrink container to content size */
+}
+
+.time-date .date {
+    font-size: 1.8rem;
+    font-family: timeFont;
+    letter-spacing: 2px;
+    margin-bottom: 10px; /* Space between date and time */
+}
+
+.time-date .time {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: timeFont;
+    letter-spacing: 2px;
+}

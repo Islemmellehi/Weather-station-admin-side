@@ -1,0 +1,10 @@
+.body{
+    overflow: hidden;
+  }
+
+.time-date{
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    width: 400px;
+}
